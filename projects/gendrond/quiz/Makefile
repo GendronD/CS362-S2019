@@ -3,6 +3,10 @@ CFLAGS = -Wall -fpic -coverage -lm -std=c99
 testme.o: testme.c
 	gcc -c testme.c -g  $(CFLAGS)
 
+run: testme.c
+	gcc -o testme testme.c $(CFLAGS)
+	./testme
+
 runtests: testme.c
 	echo "Results for testme.c" > randomtests.out
 	gcc -o testme testme.c $(CFLAGS)
