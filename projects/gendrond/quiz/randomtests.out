@@ -1,0 +1,8 @@
+Results for testme.c
+File 'testme.c'
+Lines executed:97.73% of 44
+Branches executed:100.00% of 52
+Taken at least once:96.15% of 52
+No calls
+testme.c:creating 'testme.c.gcov'
+
